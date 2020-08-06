@@ -25,7 +25,12 @@ def index():
 
 @app.route('/login/')
 def login():
-    return render_template('sign-in.html')
-
+    return render_template('signin.html')
+@app.route('/expense/')
+def expense():
+    return render_template('expenses.html')
+@app.route('/income/')
+def income():
+    return render_template('income.html')
 if __name__ == '__main__':
     app.run()
