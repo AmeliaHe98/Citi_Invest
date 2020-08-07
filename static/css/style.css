@@ -2700,7 +2700,7 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
   background-color: rgb(255, 255, 255);
 }
 .graph_box{
-	margin-bottom:1.5em;
+	margin:1.5em;
 }
 .legend {
     float: left;
@@ -2708,7 +2708,6 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
     border: 1px solid #E6E6E6;
     padding: 10px;
     width: 176px;
-    margin: 7em 0 0 6em;
 }
 .legend div {
 	margin:3px 0;
@@ -2735,8 +2734,15 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
 	font-size: 1em;
     color: #777F8C;
 }
+#os-Other2-lbl {
+    border-left:#00ACED solid 1em;
+    padding-left: .5em;
+	font-size: 1em;
+    color: #8c8a77;
+}
 .grid_1{
 	background:#fff;
+	margin: 5%;
 }
 .grid_2{
 	padding:0 12px;
@@ -4394,7 +4400,7 @@ button.rew:hover {
 h1.blank,h3.blank1 {
 	font-size:2em;
 	color:#999;
-	margin:0 0 1em;
+	margin:1em;
 }
 /*-- //blank_page --*/
 /*-- grid_page --*/
@@ -5078,7 +5084,7 @@ canvas#polarArea {
     height: 256px !important;
 }
 .legend {
-    margin: 7em 0 0 2em;
+    margin: 2em;
 }
 canvas#pie {
     width: 415px !important;
