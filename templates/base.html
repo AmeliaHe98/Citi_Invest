@@ -43,19 +43,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<!--logo and iconic logo start-->
 			<div class="logo">
-				<h1><a href="index.html">Citi <span>Invest</span></a></h1>
+				<h1><a href="{{ url_for('index')}}">Citi <span>Invest</span></a></h1>
 			</div>
 			<div class="logo-icon text-center">
-				<a href="index.html"><i class="lnr lnr-home"></i> </a>
+				<a href="{{ url_for('index')}}"><i class="lnr lnr-home"></i> </a>
 			</div>
 			<!--logo and iconic logo end-->
 			<div class="left-side-inner">
 
 				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
-						<li class="active"><a href="index.html"><i class="lnr lnr-power-switch"></i><span>Dashboard</span></a></li>
+						<li class="active"><a href="{{ url_for('index')}}"><i class="lnr lnr-power-switch"></i><span>Dashboard</span></a></li>
 						<li><a href="{{ url_for('expense')}}"><i class="lnr lnr-menu"></i> <span>Expense</span></a></li>
-						<li><a href="income.html"><i class="lnr lnr-envelope"></i> <span>Income</span></a></li>
+						<li><a href="{{ url_for('income')}}"><i class="lnr lnr-envelope"></i> <span>Income</span></a></li>
 					</ul>
 				<!--sidebar nav end-->
 			</div>
@@ -137,7 +137,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 								</a>
 								<ul class="dropdown-menu drp-mnu">
-									<li> <a href="sign-up.html"><i class="fa fa-sign-out"></i> Logout</a> </li>
+									<li> <a href="{{ url_for('login')}}"><i class="fa fa-sign-out"></i> Logout</a> </li>
 								</ul>
 							</li>
 							<div class="clearfix"> </div>
