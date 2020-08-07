@@ -15,20 +15,17 @@
 					<div class="switch-right-grid money round-edge">
                         <div class="switch-right-grid">
 						<div class="switch-right-grid1">
-							<h3 style="font-family: 'Raleway', sans-serif;">TODAY'S STATS</h3>
-							<p>You have experiences net growth.</p>
+							<h3 style="font-family: 'Raleway', sans-serif;">Weekly Spending</h3>
 							<ul>
-								<li>Earning: $400 USD</li>
-								<li>Items Sold: 20 Items</li>
-								<li>Last Hour Sales: $34 USD</li>
+								<li>Total Spending: 89.22 CAD</li>
 							</ul>
 						</div>
 					</div>
 						<div class="sparkline">
-						<canvas id="line" height="150" width="480" style="width: 480px; height: 150px;"></canvas>
+						<canvas id="line" height="155" width="680" style="width: 980px; height: 160px;"></canvas>
 							<script>
 									var lineChartData = {
-										labels : ["Mon","Tue","Wed","Thu","Fri","Sat","Mon"],
+										labels : ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
 										datasets : [
 											{
 												fillColor : "#fff",
@@ -43,23 +40,22 @@
 									new Chart(document.getElementById("line").getContext("2d")).Line(lineChartData);
 							</script>
 					</div>
-					</div>
+            </div>
 
 				</div>
 				<div class="col-md-6 col-sm-6 container-fluid" style="width:750px;">
                         <div class="switch-right-grid">
 						<div class="switch-right-grid1">
-							<h3 style="font-family: 'Raleway', sans-serif;">MONTHLY STATS</h3>
-							<p>Your net worth has decreased.</p>
+							<h3 style="font-family: 'Raleway', sans-serif;">Monthly Spending</h3>
 							<ul>
-								<li>Earning: $5,000 USD</li>
-								<li>Items Sold: 400 Items</li>
-								<li>Last Hour Sales: $2,434 USD</li>
+								<li>Total Spending: 89.22 CAD</li>
+							</ul>
+							<ul>
 							</ul>
 						</div>
 					</div>
                     <div class="sparkline">
-						<canvas id="bar" height="150" width="480" style="width:700px; height: 100%;"></canvas>
+						<canvas id="bar" height="110" width="720" style="width:700px; height: 100%;"></canvas>
 							<script>
 								var barChartData = {
 									labels : ["Mon","Tue","Wed","Thu","Fri","Sat","Mon","Tue","Wed","Thu"],
