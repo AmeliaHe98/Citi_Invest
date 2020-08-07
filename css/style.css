@@ -1914,7 +1914,7 @@ i.pull-left.fa.fa-bolt.icon-rounded {
     top:47%;
     left:35%;
     background:#8BC34A;
-    width: 200px;
+    width: 95px;
     height: 30px;
     padding: .4em 0 0;
 }
@@ -1926,6 +1926,9 @@ i.pull-left.fa.fa-bolt.icon-rounded {
 }
 .grow3 {
     background: #F44336;
+}
+.grow1,.grow3,.grow2 {
+    left: 36%;
 }
 .switch-right-grid h3{
 	color:#000;
