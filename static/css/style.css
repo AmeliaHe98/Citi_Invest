@@ -2723,23 +2723,36 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
     color: #777F8C;
 }
 #os-Mac-lbl {
-    border-left:#EF553A solid 1em;
+    border-left:#5c377e solid 1em;
     padding-left: .5em;
 	font-size: 1em;
-    color: #777F8C;
+    color: #5c377e;
 }
 #os-Other-lbl {
-    border-left:#00ACED solid 1em;
+    border-left:#777f8c solid 1em;
     padding-left: .5em;
 	font-size: 1em;
-    color: #777F8C;
+    color: #777f8c;
 }
 #os-Other2-lbl {
-    border-left:#00ACED solid 1em;
+    border-left:#bfb567 solid 1em;
     padding-left: .5em;
 	font-size: 1em;
-    color: #8c8a77;
+    color: #bfb567;
 }
+#os-Other3-lbl {
+    border-left:#c19d71 solid 1em;
+    padding-left: .5em;
+	font-size: 1em;
+    color: #c19d71;
+}
+#os-Other4-lbl {
+    border-left:#b16848 solid 1em;
+    padding-left: .5em;
+	font-size: 1em;
+    color: #b16848;
+}
+
 .grid_1{
 	background:#fff;
 	margin: 5%;
