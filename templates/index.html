@@ -144,6 +144,17 @@
                                 </div>
                         </div>
                     </div>
+
+                    <script src="https://dj48dnvcpz5t9.cloudfront.net/lex-web-ui-loader.min.js"></script>
+                    <script>
+                        var loaderOpts = {
+                            baseUrl: 'https://dj48dnvcpz5t9.cloudfront.net/',
+                            shouldLoadMinDeps: true
+                        };
+                        var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+                        loader.load().catch(function (error) { console.error(error); });
+                    </script>
+
                     <div class="col-sm-6 col-md-4" style="padding-top:75px;">
                          <div class="thumbnail" style="height:563px">
                              <img style="height:360px; width:100%;"src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg" alt="...">
